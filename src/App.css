@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Outfit:wght@400;600&display=swap');
+
+* {
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-main {
+  display: flex;
+}
+
+.sidebar-menu,
+.sidebar-content {
+  padding: 20px;
+}
+
+.sidebar-menu {
+  width: 250px;
+  background-color: black;
+  color: whitesmoke;
+  height: 100vh;
+}
+
+.sidebar-lists {
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.sidebar-lists:hover {
+  background-color: #616161;
+  color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: #9e9e9e;
+  font-family: 'Outfit', sans-serif;
+}
+
+.activeMenu {
+  background-color: #616161;
+  color: whitesmoke;
+}
+
+.menu-container{
+  position: relative;
+  left: 5%;
+  font-family: 'Noto Sans', sans-serif;
+  color: #bdbdbd;
+  margin-bottom: 5%;
+}
