@@ -71,10 +71,36 @@ ul {
 
 .modal-image {
   width: 100%;
+  padding: 20px;
 }
 
 .modal-data {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+}
+
+.btn-submit {
+  width: 100px;
+  height: 30px;
+  background-color: #ff5722;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #ff5722;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+}
+
+.delete-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.delete {
+  cursor: pointer;
 }
