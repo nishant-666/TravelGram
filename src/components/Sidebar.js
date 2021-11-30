@@ -11,11 +11,8 @@ export default function Sidebar() {
         console.log(history.location.pathname)
     }, [activeRoute])
     return (
-        <div className="sidebar-main">
-            <div className="sidebar-menu">
-                <div className="menu-container">
-                    <p className="menu-item">MENU</p>
-                </div>
+        <div>
+            <div class="sidenav">
                 <ul>
                     {SidebarMenus.map((menuItem, index) => {
                         return (
